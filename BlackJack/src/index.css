@@ -1,0 +1,113 @@
+#game {
+  font-size: 120px;
+  text-decoration: none;
+  font-family: Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  position: relative;
+  background-image: url(./assets/bg.jpeg);
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+}
+#x {
+  margin-top: 200px;
+}
+h1 {
+  color: rgb(4, 41, 77);
+}
+body {
+  background: #000;
+  color: aqua;
+}
+.image {
+  height: 170px;
+  border-radius: 6px;
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: start;
+  column-gap: 5px;
+  row-gap: 5px ;
+}
+.imp {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px auto;
+  
+}
+#two {
+  margin: 100px auto;
+}
+.imp {
+  width: 1000px;
+}
+#buton {
+  display: flex;
+  flex-direction: column; /* Items will be stacked vertically */
+  justify-content: space-between; /* Distributes space between items */
+  align-items: center;
+}
+.btn {
+  margin: 30px 0px;
+  width: 100px;
+  
+  border-radius: 7px;
+  background-color: yellow;
+  border: none;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.res{
+  display: flex;
+  justify-content: space-between;
+}
+#one{
+  background-color: coral;
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+  margin :10px;
+  color: aliceblue;
+}
+#resulte{
+  font-size: 40px;
+  color: #030E60;
+  font-weight: bolder;
+  font-style:italic;
+}
+.ub{
+  width: 80px;
+  height: 30px;
+  background-color: #000;
+  color: azure;
+  font-style: arial;
+  border: none;
+  border-radius: 4px;
+}
+#link{
+  text-decoration: none;
+  font-weight: bold;
+  color: antiquewhite;
+}
+.hehe{
+  
+  font-weight: bolder;
+  border: none;
+  margin:0px auto;
+  border-radius: 4px;
+  padding: 8px 15px;
+}
+#pn{
+  background-color: #000;
+  color: aliceblue;
+}
+#hb{
+  background-color: #ffa31a;
+  color: #000;
+}
+#phb{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}

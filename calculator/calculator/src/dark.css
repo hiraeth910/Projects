@@ -1,0 +1,19 @@
+  #one,#two,#three,#four,#five,#six,#seven,#eight,#nine,#zero {
+  background-color:rgb(6, 0, 3);
+  color: #29f704;
+}
+#equals{
+    background-color: rgb(1, 194, 75);
+  color: #dc4205;
+}
+#theme{
+  color: #f9f9f9;
+  background-color: black;
+}#theme{
+  background-color: #f9f9f9;
+  color: black;
+}
+button{
+  background-color: rgb(1, 10, 37);
+  color: #dc4205;
+}
